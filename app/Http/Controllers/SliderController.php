@@ -21,7 +21,8 @@ class SliderController extends Controller
 	} 
 	public function index(){
 		
-		$getallsliders =  $this->sliderRepository->getAllSlides();		
+		$getallsliders =  $this->sliderRepository->getAllSlides();
+
 		return view('back.sliders.index',compact('getallsliders'));
 	}
 }

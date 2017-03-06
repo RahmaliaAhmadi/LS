@@ -20,7 +20,9 @@
 
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
+						
 						@foreach($sliders as $slider)
+						
 						@if ($loop->first)
 							<div class="item active">
                                 <img class="img-responsive img-full" src="img/{{$slider->name}}" alt="">

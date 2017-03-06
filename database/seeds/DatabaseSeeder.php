@@ -83,6 +83,14 @@ class DatabaseSeeder extends Seeder
             ['tag' => 'Tag4']
 
         ]);
+		
+		DB::table('sliders')->insert([
+
+            ['name' => "slide-1.jpg"],
+            ['name' => "slide-2.jpg"],            
+            ['name' => "slide-3.jpg"]
+
+        ]);
 
         DB::table('posts')->insert([
 
